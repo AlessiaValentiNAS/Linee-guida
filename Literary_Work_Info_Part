@@ -1,0 +1,80 @@
+# Literary Work Info Part
+_Literary Work Info Part_ raccoglie le informazioni generali sui testi.   
+Si articola in tre sottoparti, visibili e navigabili attraverso il menu orizzontale in alto:
+* generale [general]
+* lingua e genere [lang./note]
+* metrica [poetry], riservata ai testi poetici.
+
+Per aggiungere la parte, selezionare **_info_** dal menu a tendina, quindi cliccare su **_add part_**.  
+
+È possibile salvare la parte soltanto una volta che siano stati compilati tutti i campi obbligatori, nel caso specifico **general** e **lang./note**.
+
+
+## Generale [General]
+
+### Author
+Permette di indicare l'autore del testo. 
+Questo campo deve essere utilizzato *soltanto nei casi in cui la paternità del testo risulti certa*. Questi casi comprendono anche quelli in cui l'autore del testo non sia identificato storicamente.    
+ 
+[AGGIUNGERE ESEMPIO NICOLA PARIGI]    
+
+Nei casi di autorialità dubbia o contesa, il compilatore dovrà aprire la [[Person Works Part|Person_Works_Part]] dell'autore o degli autori cui il testo è dubitosamente attribuito e inserire l'id dell'opera con un rank uguale o superiore a 1.   
+ 
+[AGGIUNGERE ESEMPIO NICOLA PARIGI]    
+
+
+### Title
+Indicare il titolo del testo. La compilazione del campo è **obbligatoria**.   
+
+Il titolo del testo inserito deve coincidere con il nome dell'item, ovvero con quello riportato nel **repository dei corpora**. Consultare le indicazioni riportate per il **title** dei testi in [[Metadata|Text_Metadata]].
+
+È possibile comunque indicare più titolazioni, quando ne esistessero più di una, d'autore o meno.  
+
+I titoli sono inseriti attraverso un [[visual editor|Editor_Brick]]. Per ciascun titolo è possibile indicare:  
+* la lingua in cui il titolo è espresso (obbligatorio);
+* il titolo (obbligatorio);
+* una [[Assertion|Assertion_Brick]] (facoltativa) per precisare il grado di attendibilità e le fonti del titolo.
+
+Per salvare i dati inseriti *per ogni titolo*, cliccare il tasto di spunta blu. I dati inseriti saranno così visualizzati nella parte superiore in una tabella di riepilogo.
+
+### Is Lost
+Spuntare **is Lost** quando il testo schedato è un testo perduto.
+
+### Note
+Il campo note permette di inserire una breve stringa di testo esplicativo. Compilare il campo **solo se strettamente necessario**. 
+
+
+## Lingua e genere [lang./note]
+
+### Language 
+Permette di indicare, attraverso un [[editor di scelta multipla|EditorMultiple_Brick]], la lingua o le lingue in cui il testo è stato scritto.  
+
+La compilazione del campo è **obbligatoria**.
+
+### Genre. 
+
+Permette di indicare il genere letterario del testo attraverso un thesaurus gerarchico, suddiviso in:
+* prosa
+* poesia
+* prosimetro
+
+Le voci _prosa_ e _poesia_ comprendono al loro interno vari sottogeneri, tra i quali è possibile selezionare quello specifico cui appartiene il testo schedato.  
+
+È possibile cercare il sottogenere:
+* aprendo direttamente il menu a tendina desiderato (genre > poesia / prosa / prosimetro > [...]).
+* ricorrendo al campo di ricerca _find_
+
+La voce selezionata apparirà in grassetto in testa al box, accanto alla parola _genre_, come nell'immagine:
+<img width="578" alt="Schermata 2022-09-23 alle 16 33 15" src="https://user-images.githubusercontent.com/102725489/191985449-e651db61-1dd3-415d-b858-877debad1106.png">
+
+La compilazione del campo è **obbligatoria**.
+
+## Metrica [Poetry]
+
+La compilazione di questo sottoparte è facoltativa ed è riservata ai testi poetici.
+
+### Metre
+Permette di indicare, attraverso un [[editor di scelta multipla|EditorMultiple_Brick]], i metri utilizzati nel testo.
+
+### Strophe
+Permette di inserire lo schema rimico del testo, secondo la prassi tradizionale (per quanto riguarda i testi italiani lettere capitali per endecasillabi, minuscole per settenari).
