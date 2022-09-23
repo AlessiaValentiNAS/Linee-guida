@@ -1,0 +1,21 @@
+# External Bibliography Part
+
+La **External Bibliography Part** raccoglie la bibliografia relativa all'_item_, collegando il database di Itinera ad un database bibliografico esterno.  
+
+La descrizione del modello è disponibile su [[Github|https://github.com/vedph/cadmus-general#extbibliographypart]].  
+ 
+***
+
+Per aggiungere la **External Bibliography Part**, selezionare **bibliography** dal menu a tendina della scheda di riepilogo dell'_item_, quindi cliccare sul tasto **add part**. 
+
+
+***
+
+Per aggiungere voci bibliografiche all'item, cercare il titolo di interesse nella lista delle voci già inserite nel database bibliografico, quindi cliccare la spunta verde, come nell'immagine:
+
+
+<img width="1097" alt="Schermata 2022-09-22 alle 10 43 19" src="https://user-images.githubusercontent.com/102725489/191701296-f90c51dd-50f5-445e-8e76-04e89a4339c5.png">
+
+
+[IN ALLESTIMENTO IN ATTESA DELLA RISOLUZIONE DEI BUG]
+
