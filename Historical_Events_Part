@@ -1,0 +1,62 @@
+# Historical Events Part [event]
+
+L'**Historical Events Part** permette di inserire e descrivere singolarmente:   
+* gli eventi biografici relativi alle persone;
+* gli eventi relativi alla storia dei manoscritti;
+* gli invii, le ricezioni e le consegne dei testi di corrispondenza schedati.
+
+La descrizione analitica e il ricorso a tassonomie predefinite, che permettono l'indicizzazione automatica dei dati e la loro esportazione in più formati, richiedono la **massima attenzione** durante la compilazione, al fine di evitare errori a cascata.  
+
+La descrizione del modello è disponibile su [[Github|https://github.com/vedph/cadmus-general#historicaleventspart]].   
+
+***   
+
+Per aggiungere la **Historical Events Part**, selezionare **events** dal menu a tendina della scheda di riepilogo dell'item, quindi cliccare sul tasto **add part**.
+
+Per aggiungere un evento, una volta creata la parte, cliccare su **add event**.
+
+
+***
+
+[IN ALLESTIMENTO IN ATTESA DELLA RISOLUZIONE DEI MACROBUG. IL THESAURUS NON FUNZIONA!!! E QUINDI NON SI PUò TESTARE]
+
+
+Spiegare thesauri quindi relazioni a seconda degli item.
+Spiegare impatto su grafo e quando usare grafo. 
+
+[IL GRAFO NON FUNZIONA!]
+
+
+***
+
+## Event
+
+### Eid
+
+È l'identificativo dell'evento da inserire. 
+
+### Type 
+**Campo obbligatorio**.  
+Il **type** permette di indicare la tipologia di evento inserito. In caso di dubbi sulla voce da selezionare, consultare il [thesaurus.](sssss)
+
+### Chronotope 
+Per la compilazione vedi [Chronotope](https://github.com/AlessiaValentiNAS/Linee-guida/wiki/Asserted_Chronotopes_Brick).
+
+### Assertion 
+Per la compilazione vedi [Assertion](https://github.com/AlessiaValentiNAS/Linee-guida/wiki/Assertion_Brick).
+
+### Description
+**Description** è un campo a testo libero.  
+Inserire una descrizione breve e concisa dell'evento.
+
+### RelatedEntities
+[DIPENDE DA TH]
+
+#### Relation 
+
+[IDEM]
+
+#### Id
+
+### Note    
+Per la compilazione vedi [Note](https://github.com/AlessiaValentiNAS/Linee-guida/wiki/Note_Brick).
