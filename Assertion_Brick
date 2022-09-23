@@ -1,6 +1,6 @@
 # Assertion 
 
-La parte _Assertion_ permette di qualificare i dati inseriti con un indice numerico di affidabilità e/o voci bibliografiche.  
+La parte _Assertion_ permette di qualificare i dati inseriti con un indice numerico di affidabilità e/o di associare ad essi fonti e voci bibliografiche.  
 
 Ogni _Assertion_ si riferisce ad un singolo dato inserito, quello sotto cui compare. 
 
