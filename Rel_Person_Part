@@ -1,0 +1,29 @@
+# Related Persons Part
+_Related Persons Part_ permette di elencare le persone collegate al testo. 
+
+Per aggiungere la parte, selezionare **_rel-persons_** dal menu a tendina, quindi cliccare su **_add part_**. 
+
+### Type
+Permette di specificare, mediante thesaurus, il tipo di relazione che la persona da inserire intrattiene con l'item _text_ schedato:
+* _citato_: la persona è citata nel testo.
+* _pseudonimo_: la persona è citata nel testo mediante uno pseudonimo.
+* _destinatario_: la persona è il destinatario diretto ed esplicito del testo.
+* _dedicatario_: la persona è il dedicatario primario ed esplicito del testo.
+* _richiesta di recapito a_: la persona è indicata nel testo come ulteriore destinatario cui recapitare il testo.
+
+La compilazione del campo è **obbligatoria**.
+
+### Name
+Il nome della persona nella forma presente a testo. In presenza di più citazioni riferite ad un sola persona, si privilegia la forma più esplicita, possibilmente il nome, normalizzata al nominativo.
+
+La compilazione del campo è **obbligatoria**.
+
+### Id
+Permette di collegare il nome inserito ad una o più persone storicamente individuate.
+
+Il collegamento avviene attraverso l'inserimento dell'ID della persona, sia essa schedata nel database di Itinera oppure in risorse esterne.
+Nel primo caso, l'**external ID** corrisponde all'ID dell'item persona, cioè al **title** dell'item, e lo **scope** a **Itinera**.
+Per gli altri casi consultare le indicazioni per la compilazione di [[ExternalIDs|External_IDs_Part]]
+
+È possibile specificare l'attendibilità dell'identificazione, nonché le fonti, secondo il modello [[AssertedId|Asserted_Id_Bricks]], cliccando il **simbolo blu con il punto di esclamazione**.   
+La compilazione del campo è **facoltativa**.
