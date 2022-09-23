@@ -14,10 +14,12 @@ Lasciare il campo vuoto.
 
 ## Rank 
 
-Il rank è l'indice numero di affidabilità associato al dato inserito. Va da un massimo (0) ad un minimo (2) di certezza:
+Il rank è l'indice numerico di affidabilità associato al dato inserito. Va da un massimo (0) ad un minimo (2) di certezza:
 * il rank è pari a **0** quando il dato inserito è certo.  
 * il rank è pari a **1** quando il dato inserito non è certo, ma il più sicuro, probabile o verosimile tra quelli a disposizione.  
 * il rank è pari a **2** quando il dato inserito non è certo ed è il meno sicuro, probabile o verosimile tra quelli a disposizione. 
+
+In caso di più ipotesi equivalenti, è possibile tuttavia inserire più dati con rank=1 o rank=2.
 
 **Se non compilato**, il rank è sempre uguale a 0.
 
@@ -30,7 +32,8 @@ Il campo _note_ permette di inserire una breve stringa di testo esplicativo. Com
 
 # Assertion references  
 
-Per aggiungere fonti e voci bibliografiche a sostegno del dato inserito, cliccare **_add_** sotto _Assertion references_.
+Per aggiungere fonti e voci bibliografiche a sostegno del dato inserito, cliccare **_add_** sotto _Assertion references_.  
+È possibile aggiungere più _References_, una per fonte o voce bibliografica.ù
 
 ## Type
 
