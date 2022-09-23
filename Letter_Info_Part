@@ -1,0 +1,17 @@
+# Letter Info
+
+**_Letter Info_** raccoglie le informazioni _non computabili_, inserite in forma di stringa di testo, relative **alle lettere**.
+In presenza dei dati relativi, la compilazione dei campi è sempre **obbligatoria**.
+
+### subject
+Inserire un breve regesto del testo, chiaro e conciso. Omettere l'indicazione del destinatario, quando non necessaria alla sintesi del contenuto. Evitare le frasi nominali e le frasi troppo lunghe. Evitare di ripetere i dati già inseriti altrove nel modello: non è necessario, per esempio, riportare il nome delle persone citate, indicate in una parte apposita.
+
+
+### header
+Inserire l’intestazione della lettera, in latino, nella forma accertata dall’edizione critica o attestata nel manoscritto.
+
+
+### text date
+Inserire la data della lettera, in latino, nella forma accertata dall’edizione critica o attestata nel manoscritto.
+
+
