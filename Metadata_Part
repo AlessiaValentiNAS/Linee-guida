@@ -1,0 +1,40 @@
+# Metadata Part
+
+La **_Metadata Part_** permette di inserire alcuni dati generali sugli _item_.
+
+<sub> 
+ 
+**type**: indica la tipologia del metadato.
+
+**name**: compilare il campo sempre con **un trattino** (**-**).
+
+**value**: compilare con il valore prescelto a seconda dell'item.  </sub>
+
+Per aggiungere un metadato cliccare su **add metadatum**.
+
+## Item Text
+
+Per gli **Item Text** l'unico metadato da inserire riguarda la _**tipologia di testo**_.   
+ 
+* **type**: selezionare sempre **tipologia di testo**
+* **name**:  compilare sempre con **un trattino** (**-**).
+* **value**: compilare con **frammento** se si tratta di un frammento di testo; con **raccolta** se si tratta di una raccolta di testi.
+  
+<sub>` Per esempio per l'item Rerum vulgarium fragmenta` </sub>
+
+
+## Item Manuscript
+
+Per gli **Item Manuscript** è possibile indicare la modalità di esame e la tipologia del manoscritto.
+
+### Modalità di esame del manoscritto
+
+* **type**: selezionare **modalità di esame ms**
+* **name**:  compilare sempre con **un trattino** (**-**).
+* **value**: compilare il campo con una delle seguenti opzioni _autoptica_; _da riproduzione_; _da catalogo_; _da RDP_; _da LIO_.
+
+
+### Tipologia manoscritto
+* **type**: selezionare **tipologia ms**
+* **name**:  compilare sempre con **un trattino** (**-**).
+* **value**: compilare il campo con una delle seguenti opzioni _unitario_; _composito_; _fattizio_ (quando l'assemblaggio delle unità codicologiche non risale al progetto originario del manoscritto).
