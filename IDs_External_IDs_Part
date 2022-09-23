@@ -1,6 +1,6 @@
 # IDs - External IDs Part
 
-**External IDs Part** raccoglie gli **identificativi** dell'item in risorse esterne, permettendo così di incrociare, in fase di pubblicazione, i dati inseriti nel database di Itinera con quelli presenti altrove. La descrizione del modello è disponibile su [[Github|www. ???]].  
+**External IDs Part** raccoglie gli **identificativi** dell'item in risorse esterne, permettendo così di incrociare, in fase di pubblicazione, i dati inseriti nel database di Itinera con quelli presenti altrove. La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#externalidspart).  
 
 
 <sub> 
@@ -18,7 +18,10 @@ Cliccando sulle frecce, è possibile modificare l'ordine degli identificativi in
 
 ***
 
-# Item Person - External IDs 
+#Item Person
+
+## External IDs
+ 
 Per i soggetti storicamente esistiti ed individuabili si inseriscono **obbligatoriamente** gli identificativi presenti in:
 
 - **VIAF**
@@ -60,3 +63,15 @@ Individuato il record ISNI relativo alla persona, copiarne l'identificativo nel 
 * Dizionario Biografico degli Italiani
 * Référentiel d&#39;autorités &quot;personnes&quot; IRHT
 * ULAN ID (artisti: copisti e decoratori)
+
+## Scope
+
+Inserire il nome della risorsa esterna dalla quale è stato prelevato l'identificativo inserito:  
+* VIAF
+* ISNI
+[aggiorna in base a sopra con gli altri]
+
+## Tag
+Lasciare in bianco
+
+
