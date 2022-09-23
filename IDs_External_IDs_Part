@@ -75,3 +75,11 @@ Inserire il nome della risorsa esterna dalla quale è stato prelevato l'identifi
 Lasciare in bianco
 
 
+
+***
+
+**Assertion**
+
+L'_Assertion non va **mai** compilata nella _External IDs Part_ dell'item Person.
+
+
