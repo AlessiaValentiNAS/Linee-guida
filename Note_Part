@@ -1,0 +1,14 @@
+# Note
+
+La **Note Part** è una stringa di testo libera (max 500 caratteri). Raccoglie i dati e le informazioni che non è possibile inserire ricorrendo ai modelli.    
+ 
+La descrizione del modello è disponibile su [[Github|https://github.com/vedph/cadmus-general#notepart]].
+
+
+***
+
+
+La **Note Part** deve essere compilata **solo se strettamente necessario**.   
+
+Per aggiungere la **Note Part** selezionare **_note_** dal menu a tendina e cliccare il pulsante _**add new part**_.
+
