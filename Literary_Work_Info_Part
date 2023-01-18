@@ -16,9 +16,10 @@ Per aggiungere la parte, selezionare **_info_** dal menu a tendina, quindi clicc
 Permette di indicare l'autore del testo. 
 Questo campo deve essere utilizzato *soltanto nei casi in cui la paternità del testo risulti certa*. Questi casi comprendono anche quelli in cui l'autore del testo non sia identificato storicamente.    
  
-[AGGIUNGERE ESEMPIO NICOLA PARIGI]    
+🚧 Se uno di questi autori è un nome di piuma, avrà un suo item dove si compila la PersonWorksPart; se per questo autore esistono proposte di identificazione, l'Item Person dell'autore di cui si propone l'identificazione con il nome di piuma  è collegato all'Item di quest'ultimo attraverso una tripla (o attraverso un External Id con scope=Itinera, che funzioni come un predicato "è identificabile con", con relativo rank. Nell’item dedicato al personaggio ipoteticamente identificato con il nome di piuma la PersonWorksPart non è compilata con il testo attribuito al nome di piuma. 
+[AGGIUNGERE ESEMPIO NICOLA PARIGI]   
 
-Nei casi di autorialità dubbia o contesa, il compilatore dovrà aprire la [[Person Works Part|Person_Works_Part]] dell'autore o degli autori cui il testo è dubitosamente attribuito e inserire l'id dell'opera con un rank uguale o superiore a 1.   
+Nei casi di autorialità dubbia o contesa, il compilatore dovrà aprire la [[Person Works Part|Person_Works_Part]] dell'autore o degli autori cui il testo è dubitosamente attribuito e inserire l'id dell'opera con un rank uguale o superiore a 2.   
  
 [AGGIUNGERE ESEMPIO NICOLA PARIGI]    
 
@@ -29,6 +30,8 @@ Indicare il titolo del testo. La compilazione del campo è **obbligatoria**.
 Il titolo del testo inserito deve coincidere con il nome dell'item, ovvero con quello riportato nel **repository dei corpora**. Consultare le indicazioni riportate per il **title** dei testi in [[Metadata|Text_Metadata]].
 
 È possibile comunque indicare più titolazioni, quando ne esistessero più di una, d'autore o meno.  
+
+⚠️ Per le lettere di Petrarca, oltre al titolo redazionale (coincidente con il nome dell'item, ovvero con quello riportato nel **repository dei corpora**: es. Fam. I 1), creare un secondo elemento _title_ corrispondente all’incipit della lettera.  
 
 I titoli sono inseriti attraverso un [[visual editor|Editor_Brick]]. Per ciascun titolo è possibile indicare:  
 * la lingua in cui il titolo è espresso (obbligatorio);
