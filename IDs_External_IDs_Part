@@ -1,4 +1,4 @@
-# IDs - External IDs Part
+# IDs - External IDs Part >>> ORA AssertedId con lookup (quindi itn + id esterni)
 
 **External IDs Part** raccoglie gli **identificativi** dell'item in risorse esterne, permettendo così di incrociare, in fase di pubblicazione, i dati inseriti nel database di Itinera con quelli presenti altrove. La descrizione del modello è disponibile su [Github](https://github.com/vedph/cadmus-general#externalidspart).  
 
